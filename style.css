@@ -1,0 +1,91 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    font-family: 'Karla';
+    line-height: 24px;
+}
+
+main {
+    position: absolute;
+    background-color: rgb(17, 24, 39);
+    width: 550px;
+    height: 700px;
+    left: 32%;
+    top: 15%;
+}
+
+.above-line {
+    color: white;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10%;
+    padding-top: 30%;
+}
+
+.above-line p {
+    margin: 0;
+}
+
+.green {
+    color: #55F991;
+}
+
+.light {
+    color: #D5D4D8;
+    font-size: 20px;
+}
+
+.user-input {
+    display: flex;
+    padding: 0 10%;
+    gap: 50px;
+}
+
+.user-input button {
+    background: #10B981;
+    border: #10B981;
+    font-size: 20px;
+    border-radius: 7px;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.user-input button:hover {
+    background: white;
+    color: #10B981;
+    width: 230px;
+    height: 50px;
+}
+
+.line {
+    border: 1px solid #2F3E53;
+    width: 446px;
+    height: 0px;
+    margin: 20px auto;
+}
+
+.under-line {
+    display: flex;
+    color:#55F991;
+    gap: 20px;
+    justify-content: center;
+}
+
+.under-line p {
+    background: #273549;
+    height: 39px;
+    width: 211px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
