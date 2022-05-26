@@ -9,12 +9,10 @@ body {
 }
 
 main {
-    position: absolute;
     background-color: rgb(17, 24, 39);
-    width: 550px;
-    height: 700px;
-    left: 32%;
-    top: 15%;
+    width: 490px;
+    height: 620px;
+    margin: 4% auto;
 }
 
 .above-line {
